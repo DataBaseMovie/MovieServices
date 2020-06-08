@@ -1,4 +1,4 @@
-package com.services.movies.model;
+package com.next.services.movies.model.movies;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -88,7 +88,7 @@ public class MoviesModel {
 
     @Override
     public String toString() {
-        return "DiscoverMovieDTO{" +
+        return "DiscoverMovie{" +
                 "page=" + page +
                 ", results=" + Arrays.toString(results) +
                 ", total_results=" + total_results +

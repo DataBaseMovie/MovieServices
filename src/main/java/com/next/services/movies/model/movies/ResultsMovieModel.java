@@ -1,4 +1,4 @@
-package com.services.movies.model;
+package com.next.services.movies.model.movies;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -16,7 +16,7 @@ public class ResultsMovieModel {
     private boolean             adult;
     private String              overview;
     private String              release_date;
-    private ArrayList<Integer> genre_ids;
+    private ArrayList<Integer>  genre_ids;
     private int                 id;
     private String              original_title;
     private String              original_language;
@@ -284,7 +284,7 @@ public class ResultsMovieModel {
 
     @Override
     public String toString() {
-        return "ResultsDiscoverMovieDTO{" +
+        return "ResultsDiscoverMovie{" +
                 "poster_path='" + poster_path + '\'' +
                 ", adult=" + adult +
                 ", overview='" + overview + '\'' +
